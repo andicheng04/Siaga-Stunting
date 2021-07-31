@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.acxdev.stunting">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Stunting">
+        <activity android:name=".ui.child.ActivityChildLogin"/>
+        <activity android:name=".ui.mom.ActivityMomLogin" />
+        <activity android:name=".ui.ActivityMenu" />
+        <activity android:name=".ui.ActivityMpasi" />
+        <activity android:name=".ui.ActivityGiziResult" />
+        <activity android:name=".ui.child.ActivityGiziChild" />
+        <activity android:name=".ui.mom.ActivityGiziMom" />
+        <activity android:name=".ui.ActivityRecipe" />
+        <activity android:name=".ui.ActivityPengolahanPangan" />
+        <activity android:name=".ui.ActivityVideoList" />
+        <activity android:name=".ui.mom.ActivityMom3" />
+        <activity android:name=".ui.mom.ActivityMom2" />
+        <activity android:name=".ui.child.ActivityChild3" />
+        <activity android:name=".ui.mom.ActivityMom" />
+        <activity android:name=".ui.child.ActivityChild2" />
+        <activity android:name=".ui.child.ActivityChild" />
+        <activity android:name=".ui.ActivityAuth" />
+        <activity android:name=".ui.ActivityWelcome" />
+        <activity android:name=".ui.ActivitySplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.ActivityMain" />
+    </application>
+
+</manifest>

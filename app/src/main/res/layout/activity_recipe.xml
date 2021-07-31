@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    tools:context=".ui.ActivityRecipe">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/ic_recipe" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="50dp"
+        android:id="@+id/mpasi6to8month"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/bg_rounded"
+        android:backgroundTint="#F9A57D"
+        android:fontFamily="@font/bryndan_write"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="MPASI 6-8 bulan"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/bryndan_write" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/mpasi9to11month"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/bg_rounded"
+        android:backgroundTint="#E76051"
+        android:fontFamily="@font/bryndan_write"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="MPASI 9-11 bulan"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/bryndan_write" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="50dp"
+        android:id="@+id/mpasi12to13month"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/bg_rounded"
+        android:backgroundTint="#C48E70"
+        android:fontFamily="@font/bryndan_write"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="MPASI 12-13 bulan"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/bryndan_write" />
+</LinearLayout>
